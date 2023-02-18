@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Onliners-PH</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="icomoon/icomoon.css">
+    <link rel="stylesheet" type="text/css" href="css/vendor.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- script ================================================== -->
+    <script src="js/modernizr.js"></script>
+<style>
+
+.product-info{
+  display:flex;
+  flex-direction: column;
+  height:50px
+
+}
+</style>
+  </head>
+  <body>
+    <div class="search-box">
+      <div class="search-wrap">
+        <div class="close-button">
+          <i class="icon icon-close"></i>
+        </div>
+        <form id="search-form" class="text-center" action="" method="">
+          <input type="text" class="search-input" placeholder="Search..." />
+          <i class="icon icon-search"></i>
+        </form>
+      </div>
+    </div>
+    <header id="header">
+      <div id="header-wrap">
+        <nav class="secondary-nav border-bottom">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4 col-sm-12">
+                <div class="header-contact">
+                  <p>Let's talk! <strong>+63 997 639 1755</strong>
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="shipping-purchase text-center">
+                  <p>Free shipping on a purchase value of 200 PHP</p>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="user-items">
+                  <ul class="d-flex justify-content-end list-unstyled">
+                    <li>
+                      <a href="sign-in.html">
+                        <i class="icon icon-user"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="cart.html">
+                        <i class="icon icon-clipboard"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#like">
+                        <i class="icon icon-heart"></i>
+                      </a>
+                    </li>
+                    <li class="user-items">
+                      <i class="icon icon-search"></i>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <nav class="primary-nav padding-small">
+          <div class="container">
+            <div class="row d-flex">
+              <div class="col-lg-2 col-md-2">
+                <div class="main-logo">
+                  <a href="index.html">
+                    <img src="images/ONLINERS logo BLACK png.png" alt="logo">
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-10 col-md-10">
+                <div class="navbar">
+                  <div class="main-menu stellarnav">
+                    <ul class="menu-list-2 list-unstyled">
+                      <li class="menu-item active">
+
+                        <li class="menu-item">
+
+                          <a href="index.html"class="item-anchor" data-effect="Liliw">Home</a>
+                           </li>
+                          <li class="menu-item">
+                            <a href="liliw.html"class="item-anchor" data-effect="Liliw">Liliw Shoes</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="marikina-bag.html" class="item-anchor" data-effect="Marikina">Marikina Bags</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="htp.html" class="item-anchor" data-effect="clothing">HTP Clothing</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="#sale" class="item-anchor" data-effect="Sale">Sale</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="#blog" class="item-anchor" data-effect="Blog">Blog</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="#blog" class="item-anchor" data-effect="Blog">Track your Order</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="about.html" class="item-anchor" data-effect="about">About Us</a>
+                          </li>
+                            
+                    </ul>
+                    <div class="hamburger">
+                      <span class="bar"></span>
+                      <span class="bar"></span>
+                      <span class="bar"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section id="billboard" class="overflow-hidden">
+      </div>
+
+
+
+      <!--Product Information----->
+      
+      <style>
+        .all-prod {
+                display:flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+                justify-content: space-evenly;
+                box-sizing: border-box;
+                flex:100%;
+                flex-wrap: wrap;
+
+        }
+        .all-prod2 {
+                display:flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+                justify-content: space-evenly;
+                box-sizing: border-box;
+                flex:100%;
+                flex-wrap: wrap;
+        }
+        .product1-1 {
+            margin-top:5px;   
+            vertical-align: middle;
+            align-items: center;
+            background-color: rgb(67, 111, 151);
+            height:600px;
+            width:500px;
+            padding: 8px;
+            border-radius: 8px;
+            color:aliceblue;
+            font-size: medium;
+            font-family: Arial, Helvetica, sans-serif;
+            display:flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+
+        .product1-2 .product1-3 {
+            margin-top:5px;   
+            vertical-align: middle;
+            align-items: center;
+            background-color: rgb(67, 111, 151);
+            height:600px;
+            width:500px;
+            padding: 8px;
+            border-radius: 8px;
+            color:aliceblue;
+            font-size: medium;
+            font-family: Arial, Helvetica, sans-serif;
+            padding:10px;
+            display:flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .product2 {
+
+            vertical-align: middle;
+            align-items: center;
+            background-color: rgb(138, 159, 119);
+            height:600px;
+            width:800px;
+            padding: 8px;
+            border-radius: 8px;
+            color:aliceblue;
+            font-size: medium;
+            font-family: Arial, Helvetica, sans-serif;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+
+        /* buttons */
+
+  .button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.button1 {
+  background-color: #9b5005;
+  color: black; 
+  border: 2px solid #9b5005;
+}
+
+.button1:hover {
+  background-color: #9b5005;
+  color: white;
+}
+
+.button2 {
+  background-color: #efe1b2;
+  color: black; 
+  border: 2px solid #efe1b2;
+}
+
+.button2:hover {
+  background-color: #efe1b2;
+  color: white;
+}
+
+.button3 {
+  background-color: rgb(219, 168, 168); 
+  color: black; 
+  border: 2px solid rgb(219, 168, 168); 
+}
+
+.button3:hover {
+  background-color:rgb(219, 168, 168); 
+  color: white;
+}
+
+.button4 {
+  background-color: black;;
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+
+.button4:hover {background-color: black;}
+
+.button5 {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+
+.button5:hover {
+  background-color: #555555;
+  color: white;
+}
+
+
+.buttonsize {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+
+.buttonsize:hover {
+  background-color: #555555;
+  color: white;
+}
+
+.ButtonAdd {
+  background-color:#4CAF50;
+  color: rgb(255, 255, 255);
+  border: 2px solid #555555;
+  height:80px;
+  width:220px;
+  text-align: center;
+}
+
+.ButtonAdd:hover {
+  background-color: #555555;
+  color: white;
+}
+
+    
+    </style>
+    
+    <main>
+    
+        <ul type="none" class="all-prod">
+          <li type="none" class="product-1-1"> 
+              
+            <img src="images/prod-info-1.jpg" alt="Flats" class="product-image" style="height:700px; width:500px; margin-left:20px" >
+            
+          </li>
+            <li type="none" class="product-2" style="margin-left:50px"> 
+              <h1 style="color:#4CAF50"> Onliners Steff Flats</h1> 
+              <h2 style="color:#4CAF50"> PHP 280.00</h2> 
+              <h3 style="color:#4CAF50"> MATERIALS:</h3>
+              <p> <b> Upper </b> - Synthetic Leather
+              <p> <b> Insole </b>- Double Padded soft foam ,Pia lining</p>
+              <p><b>Outsole -</b> Modalinea Hardsole </p>
+               <p><b> Sizes : </b> 5-10</p>
+                
+        <h3 style="color:#4CAF50"> REMINDER: </h3>
+                <p> <b>FITTING </b></p>
+                <p> <b> Slim / Average :</b> Choose your regular size </p>
+                <p> <b> Thick / Wide :</b> Add 1 or 2 sizes depends on how thick or wide your feet</p>
+                <p> <i> " Actual shoe color may be differ slightly from photos, cause of the phone we used </i> </p>
+                <p> <i>We send actual photos of your orders before we pack and ship.</i></p>
+                <p> <i> Seller shall not be held responsible for delay & damage caused by our Courier." </i></p>
+            </li>
+            </li>
+        </ul>
+        <ul type="none" class="all-prod">
+        <ul type="none" class="all-prod2">
+        <li type="none" class="product-1-2"> 
+          <img src="images/prod-info-2.jpg" alt="Flats" class="product-image" style="height:200px">
+          <img src="images/prod-info-3.jpg" alt="Flats" class="product-image" style="height:200px">
+          <img src="images/prod-info-4.jpg" alt="Flats" class="product-image" style="height:200px">
+          
+          
+        <li type="none" class="product-1-2"> 
+          <h2 style="color:#4CAF50">Color Available </h2>
+          <button class="button button1">Tan</button>
+          <button class="button button2">Beige</button>
+          <button class="button button3">Rose </button>
+          <button class="button button5">Black</button>
+
+          <h2 style="color:#4CAF50">Sizes</h2>
+          <button class="button buttonsize">35</button> 
+          <button class="button buttonsize">36</button> 
+          <button class="button buttonsize">37</button> 
+          <button class="button buttonsize">38</button> 
+          <button class="button buttonsize">39</button> 
+          <button class="button buttonsize">40</button> 
+
+
+        </li>
+          <li type="none" class="product-1-3"> 
+            <a href ="addtocart.html" class ="button ButtonAdd"> <b> ADD TO CART </b> </a> 
+            <br/>
+            <button class="button ButtonAdd"> <b>ADD TO WISHLIST </b></button> 
+          </li>
+        </ul>
+      </ul>
+    
+      </main>
+
+    <!---footer-->
+  
+    <footer id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-menu-list">
+            <div class="row d-flex flex-wrap justify-content-between">
+              <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="footer-menu">
+                  <h5 class="widget-title">Onliners</h5>
+                  <ul class="menu-list list-unstyled">
+                    <li class="menu-item">
+                      <a href="#">About us</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="#">Conditions </a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="#">Our Journals</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="#">Careers</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="#">Affiliate Programme</a>
+                    </li>
+
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="footer-menu">
+                  <h5 class="widget-title">Customer Service</h5>
+                  <ul class="menu-list list-unstyled">
+                    <li class="menu-item">
+                      <a href="#">FAQ</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="#">Contact</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="#">Privacy Policy</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="#">Returns & Refunds</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="#">Cookie Guidelines</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="#">Delivery Information</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="footer-menu">
+                  <h5 class="widget-title">Contact Us</h5>
+                  <p>Do you have any questions or suggestions? 
+                    <br /> <a href="#" class="email">onliners-ph@gmail.com</a>
+                  </p>
+                  <p>Do you need assistance? Give us a call. <br>
+                    <strong>+63 997 639 1755</strong>
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="footer-menu">
+                  <h5 class="widget-title"><img src="images/ONLINERS logo WHITE png.png" alt="logo"></h5>
+                  <p>Let's make shopping easy, hassle-free and very affordable for everyone. Sharing the love for local products and PH-fashion.</p>
+                  <div class="social-links">
+                    <ul class="d-flex list-unstyled">
+                      <li>
+                        <a href="#">
+                          <i class="icon icon-facebook"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="icon icon-twitter"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="icon icon-youtube-play"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="icon icon-behance-square"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </footer>
+    <div id="footer-bottom">
+      <div class="container">
+        <div class="row d-flex flex-wrap justify-content-between">
+          <div class="copyright">
+            <p>Freebies by <a href="https://www.facebook.com/YourOL">Onliners-PH</a>
+            </p>
+          </div>
+          <div class="payment-method">
+            <p>Payment options :</p>
+            <div class="card-wrap">
+              <img src="images/visa-icon.jpg" alt="visa">
+              <img src="images/mastercard.png" alt="mastercard">
+              <img src="images/american-express.jpg" alt="american-express">
+              <img src="images/gcash.png" alt="american-express">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
